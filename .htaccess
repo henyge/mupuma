@@ -1,0 +1,24 @@
+RewriteEngine on
+RewriteBase /mupuma
+
+SetEnv TZ Africa/Accra
+
+Header unset ETag
+ FileETag None
+ <FilesMatch ".(png|jpg|jpeg|gif|mp4|ogv|webm|css|js)$">
+ SetOutputFilter DEFLATE
+</FilesMatch>
+
+RewriteCond %{REQUEST_URI} !(/$|\.) 
+RewriteRule (.*) %{REQUEST_URI}/ [R=301]
+
+# fix css/images/js links
+RewriteRule ^.+?/((?:assets)/.+)$ $1 [NE,R=301]
+
+RewriteRule ^admin/?$ index.php?v=admin [NC,L]
+RewriteRule ^logout/?$ index.php?v=_logout [NC,L]
+
+RewriteRule ^([A-Za-z0-9-_]+)/([A-Za-z0-9-_]+)/([A-Za-z0-9-_]+)/([A-Za-z0-9-_]+)/?$ index.php?v=page&c=$1&s=$2&l=$3&e=$4 [NC,L]
+RewriteRule ^([A-Za-z0-9-_]+)/([A-Za-z0-9-_]+)/([A-Za-z0-9-_]+)/?$ index.php?v=page&c=$1&s=$2&l=$3 [NC,L]
+RewriteRule ^([A-Za-z0-9-_]+)/([A-Za-z0-9-_~]+)/?$ index.php?v=page&c=$1&s=$2 [NC,L]
+RewriteRule ^([A-Za-z0-9-_]+)/?$ index.php?v=page&c=$1 [NC,L]

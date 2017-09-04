@@ -1,0 +1,1 @@
+<?php include("inc.pricom.php"); $mms = new PRICOM(); $mms->display($mms);?>
