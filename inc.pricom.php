@@ -25,8 +25,8 @@ class PRICOM extends PMS_LIBRARY{
 	<html class="no-js" lang="en">
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="description" content="software app site template" />
-	<meta name="keywords" content="corporate, software, app, business, marketing, site template, web marketing, internate marketing"/>
+	<meta name="description" content="African company defining service and excellence in technology-driven business solutions. Mupuma Management Solutions Limited was established in Zambia in 2010 with two local directors." />
+	<meta name="keywords" content="mupuma, sage, sage 300, software, hardware, management, solutions, limited"/>
 	<meta name="author" content="Tansh" />
 	<link rel="icon" type="image/png" href="assets/images/logo_new.png"/>
 	<title>Mupuma Management Solutions Ltd.</title>
@@ -146,7 +146,7 @@ class PRICOM extends PMS_LIBRARY{
   <?php
   }
 	function _footItem(){
-  ?>
+  ?> 
   <div id="footer">
 		<div class="container footer_inner clearfix"> 
 
@@ -738,6 +738,16 @@ class PRICOM extends PMS_LIBRARY{
 
 		<!--features two columns starts-->
 		<div class="container features_main clearfix">
+			
+			<div class="grid_3"> <a href="#"><img src="assets/images/preview/img-g3.jpg" width="200" height="125" alt="Image" class="image_frame"/></a> </div>
+			<div class="grid_9">
+				<h2><a href="#">Senia Bianca Nyondo</a></h2>
+				<h4>Chief Executive Officer </h4>
+				<p>Ms Senia holds a Degree in Computing and Networking from Greenwich University and is also a Certified ACCPAC Consultant, certified by Softline ACCPAC. Having worked as an IT specialist with over 6 years of experience, ranging from System Administration and customer support in various key positions in organisations like DCDM, Zamtel, Railway Systems and Senia has Wide experience in I.T and Sage Accpac ERP. </p>
+			</div>
+			
+			<div class="spacer_30px"></div>
+			
 			<div class="grid_3"> <a href="#"><img src="assets/images/preview/img-g3.jpg" width="200" height="125" alt="Image" class="image_frame"/></a> </div>
 			<div class="grid_9">
 				<h2><a href="#">Shemu Sinkala</a></h2>
@@ -747,11 +757,12 @@ class PRICOM extends PMS_LIBRARY{
 			
 			<div class="spacer_30px"></div>
 			
+			
 			<div class="grid_3"> <a href="#"><img src="assets/images/preview/img-g3.jpg" width="200" height="125" alt="Image" class="image_frame"/></a> </div>
 			<div class="grid_9">
-				<h2><a href="#">Senia Bianca Nyondo</a></h2>
-				<h4>Managing Consultant </h4>
-				<p>Ms Senia holds a Degree in Computing and Networking from Greenwich University and is also a Certified ACCPAC Consultant, certified by Softline ACCPAC. Having worked as an IT specialist with over 6 years of experience, ranging from System Administration and customer support in various key positions in organisations like DCDM, Zamtel, Railway Systems and Senia has Wide experience in I.T and Sage Accpac ERP. </p>
+				<h2><a href="#">Litia Maboshe</a></h2>
+				<h4>Senior Consultant </h4>
+				<p>Mr. Maboshe is a Certified Consultant on SAGE ACCPAAC and other Sage Products. Litia has extensive experience in Accounting Software in the design and implementation of computerized Financial Management Systems in donor funded Organizations. </p>
 			</div>
 			
 			<div class="spacer_30px"></div>
